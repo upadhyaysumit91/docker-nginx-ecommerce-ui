@@ -63,7 +63,7 @@ A modern Amazon-inspired e-commerce landing page built using pure HTML and CSS.
 
 Clone the repository:
 
-git clone https://github.com/your-username/sumit-mart.git
+git clone https://github.com/upadhyaysumit91/docker-nginx-ecommerce-ui.git
 
 
 Navigate to the project:
@@ -87,9 +87,6 @@ Create a Dockerfile:
 FROM nginx:stable-alpine
 
 COPY index.html /usr/share/nginx/html/index.html
-
-EXPOSE 80
-```
 
 Build Docker Image:
 
